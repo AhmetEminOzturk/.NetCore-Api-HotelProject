@@ -41,21 +41,10 @@
         </div>
 
         @await Html.PartialAsync("/Views/AdminLayout/FooterPartial.cshtml")
-        <!--**********************************
-            Footer end
-        ***********************************-->
+       
     </div>
-    <!--**********************************
-        Main wrapper end
-    ***********************************-->
-    <!--**********************************
-        Scripts
-    ***********************************-->
-    <script src="~/adminweb/plugins/common/common.min.js"></script>
-    <script src="~/adminweb/js/custom.min.js"></script>
-    <script src="~/adminweb/js/settings.js"></script>
-    <script src="~/adminweb/js/gleek.js"></script>
-    <script src="~/adminweb/js/styleSwitcher.js"></script>
+
+    @await Html.PartialAsync("/Views/AdminLayout/ScriptPartial.cshtml")
 
 </body>
 
