@@ -30,6 +30,7 @@
   <ItemGroup>
     <Folder Include="Dtos\LoginDto\Responses\" />
     <Folder Include="Dtos\RegisterDto\Responses\" />
+    <Folder Include="Dtos\RoomDto\Requests\" />
   </ItemGroup>
 
 </Project>
