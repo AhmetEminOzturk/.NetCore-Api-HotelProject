@@ -96,8 +96,22 @@ using HotelProject.WebUI.Dtos.StaffDto.Responses;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 13 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.BookingDto.Responses;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.BookingDto.Requests;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"299d61a1041a96163aa4a2c6a0d93d308fed686a", @"/Views/Shared/Components/_OurRoomsPartial/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1b1dc60e78fe6ad2b8270ffab53f2aef9ad5c573", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c99c35938d14411b2f3b32145220782e3d7d6125", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Components__OurRoomsPartial_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<DisplayRoomResponse>>
     #nullable disable

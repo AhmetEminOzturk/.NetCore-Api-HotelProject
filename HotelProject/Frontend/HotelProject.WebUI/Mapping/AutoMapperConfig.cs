@@ -2,6 +2,8 @@
 using HotelProject.EntityLayer.Concrete;
 using HotelProject.WebUI.Dtos.AboutDto.Requests;
 using HotelProject.WebUI.Dtos.AboutDto.Responses;
+using HotelProject.WebUI.Dtos.BookingDto.Requests;
+using HotelProject.WebUI.Dtos.BookingDto.Responses;
 using HotelProject.WebUI.Dtos.LoginDto.Requests;
 using HotelProject.WebUI.Dtos.RegisterDto.Requests;
 using HotelProject.WebUI.Dtos.RoomDto.Responses;
@@ -29,6 +31,9 @@ namespace HotelProject.WebUI.Mapping
             
             CreateMap<DisplayRoomResponse, Room>().ReverseMap();
             CreateMap<DisplayStaffResponse, Staff>().ReverseMap();
+
+            CreateMap<DisplayBookingResponse, Booking>().ReverseMap();
+            CreateMap<CreateBookingRequest, Booking>().ReverseMap();
 
             CreateMap<CreateSubscribeRequest, Subscribe>().ReverseMap();
         }

@@ -96,8 +96,22 @@ using HotelProject.WebUI.Dtos.StaffDto.Responses;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 13 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.BookingDto.Responses;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.BookingDto.Requests;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d", @"/Views/Shared/Components/_ReservationPartial/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1b1dc60e78fe6ad2b8270ffab53f2aef9ad5c573", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c99c35938d14411b2f3b32145220782e3d7d6125", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Components__ReservationPartial_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -147,7 +161,7 @@ using HotelProject.WebUI.Dtos.StaffDto.Responses;
                                 <input type=""text"" class=""form-control datetimepicker-input"" placeholder=""Check out"" data-target=""#date2"" data-toggle=""datetimepicker"" />
                 ");
             WriteLiteral("            </div>\r\n                        </div>\r\n                        <div class=\"col-md-3\">\r\n                            <select class=\"form-select\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d7882", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d8355", async() => {
                 WriteLiteral("Adult");
             }
             );
@@ -164,7 +178,7 @@ using HotelProject.WebUI.Dtos.StaffDto.Responses;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d9182", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d9655", async() => {
                 WriteLiteral("Adult 1");
             }
             );
@@ -180,7 +194,7 @@ using HotelProject.WebUI.Dtos.StaffDto.Responses;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d10374", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d10847", async() => {
                 WriteLiteral("Adult 2");
             }
             );
@@ -196,7 +210,7 @@ using HotelProject.WebUI.Dtos.StaffDto.Responses;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d11567", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d12040", async() => {
                 WriteLiteral("Adult 3");
             }
             );
@@ -212,7 +226,7 @@ using HotelProject.WebUI.Dtos.StaffDto.Responses;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            </select>\r\n                        </div>\r\n                        <div class=\"col-md-3\">\r\n                            <select class=\"form-select\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d12949", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d13422", async() => {
                 WriteLiteral("Child");
             }
             );
@@ -229,7 +243,7 @@ using HotelProject.WebUI.Dtos.StaffDto.Responses;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d14250", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d14723", async() => {
                 WriteLiteral("Child 1");
             }
             );
@@ -245,7 +259,7 @@ using HotelProject.WebUI.Dtos.StaffDto.Responses;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d15443", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d15916", async() => {
                 WriteLiteral("Child 2");
             }
             );
@@ -261,7 +275,7 @@ using HotelProject.WebUI.Dtos.StaffDto.Responses;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d16636", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c799c3a8db33edce9e6ccf28bf3d0f0ac4fab40d17109", async() => {
                 WriteLiteral("Child 3");
             }
             );

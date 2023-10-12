@@ -96,8 +96,22 @@ using HotelProject.WebUI.Dtos.StaffDto.Responses;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 13 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.BookingDto.Responses;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.BookingDto.Requests;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"29d959f249c4f4e0f72202d179a08544d8270eb0", @"/Views/Shared/Components/_SliderPartial/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1b1dc60e78fe6ad2b8270ffab53f2aef9ad5c573", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c99c35938d14411b2f3b32145220782e3d7d6125", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Components__SliderPartial_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -131,7 +145,7 @@ using HotelProject.WebUI.Dtos.StaffDto.Responses;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\r\n<div class=\"container-fluid p-0 mb-5\">\r\n    <div id=\"header-carousel\" class=\"carousel slide\" data-bs-ride=\"carousel\">\r\n        <div class=\"carousel-inner\">\r\n            <div class=\"carousel-item active\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "29d959f249c4f4e0f72202d179a08544d8270eb07389", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "29d959f249c4f4e0f72202d179a08544d8270eb07862", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -158,7 +172,7 @@ using HotelProject.WebUI.Dtos.StaffDto.Responses;
             BeginWriteAttribute("href", " href=\"", 879, "\"", 886, 0);
             EndWriteAttribute();
             WriteLiteral(" class=\"btn btn-light py-md-3 px-md-5 animated slideInRight\">Rezervasyon Yap</a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"carousel-item\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "29d959f249c4f4e0f72202d179a08544d8270eb09668", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "29d959f249c4f4e0f72202d179a08544d8270eb010141", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

@@ -96,8 +96,22 @@ using HotelProject.WebUI.Dtos.StaffDto.Responses;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 13 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.BookingDto.Responses;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.BookingDto.Requests;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e82a8965f615fcabecb42f06a72ee85be1072d3d", @"/Views/Default/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1b1dc60e78fe6ad2b8270ffab53f2aef9ad5c573", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c99c35938d14411b2f3b32145220782e3d7d6125", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Default_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -144,7 +158,7 @@ using HotelProject.WebUI.Dtos.StaffDto.Responses;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e82a8965f615fcabecb42f06a72ee85be1072d3d6122", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e82a8965f615fcabecb42f06a72ee85be1072d3d6595", async() => {
                 WriteLiteral("\r\n    <div class=\"container-xxl bg-white p-0\">\r\n    \r\n        ");
 #nullable restore
 #line 13 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\Default\Index.cshtml"
