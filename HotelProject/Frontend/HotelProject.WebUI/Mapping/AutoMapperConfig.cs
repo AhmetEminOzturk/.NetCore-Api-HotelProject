@@ -6,6 +6,7 @@ using HotelProject.WebUI.Dtos.BookingDto.Requests;
 using HotelProject.WebUI.Dtos.BookingDto.Responses;
 using HotelProject.WebUI.Dtos.LoginDto.Requests;
 using HotelProject.WebUI.Dtos.RegisterDto.Requests;
+using HotelProject.WebUI.Dtos.ReservationDto.Requests;
 using HotelProject.WebUI.Dtos.RoomDto.Responses;
 using HotelProject.WebUI.Dtos.ServiceDto.Requests;
 using HotelProject.WebUI.Dtos.ServiceDto.Responses;
@@ -34,6 +35,8 @@ namespace HotelProject.WebUI.Mapping
 
             CreateMap<DisplayBookingResponse, Booking>().ReverseMap();
             CreateMap<CreateBookingRequest, Booking>().ReverseMap();
+            CreateMap<UpdateBookingRequest, Booking>().ReverseMap();
+            CreateMap<UpdateReservationRequest, Booking>().ReverseMap();
 
             CreateMap<CreateSubscribeRequest, Subscribe>().ReverseMap();
         }

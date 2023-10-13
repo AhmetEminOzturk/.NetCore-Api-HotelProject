@@ -198,3 +198,4 @@ C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj
 C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_BookingCoverPartial\Default.cshtml.g.cs
 C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Booking\AddBooking.cshtml.g.cs
 C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Booking\Index.cshtml.g.cs
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\BookingsAdmin\Index.cshtml.g.cs
