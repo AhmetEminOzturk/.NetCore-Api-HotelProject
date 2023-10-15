@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "FgLv6YdYWMuT2IA0IsJ+y9acuZqNTapY1A9DgGo+8LunZYahzDccRqf1jC8M6TPalKHo5XQdilAMjjBqiulr9A==",
+  "dgSpecHash": "aKpD1+dyfLM6IVaD1GXFQ3jC/l8uYQkiK3OT2SyIDhYTpeccXGb20MGjS0JTv1DVWW8tz17ZnZ5Z8EPOcwgn5g==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\.NetCore-Api-HotelProject\\HotelProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eAo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\eAo\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\eAo\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\eAo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\eAo\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

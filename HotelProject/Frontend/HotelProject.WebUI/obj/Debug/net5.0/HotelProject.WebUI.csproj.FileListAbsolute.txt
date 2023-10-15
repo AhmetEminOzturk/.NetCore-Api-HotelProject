@@ -200,3 +200,16 @@ C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj
 C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Booking\Index.cshtml.g.cs
 C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\BookingsAdmin\Index.cshtml.g.cs
 C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Contact\Index.cshtml.g.cs
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_ContactCoverPartial\Default.cshtml.g.cs
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Contact\SendMessage.cshtml.g.cs
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminAbout\Index.cshtml.g.cs
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminAbout\UpdateAbout.cshtml.g.cs
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminRoom\Index.cshtml.g.cs
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminRoom\AddRoom.cshtml.g.cs
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminRoom\UpdateRoom.cshtml.g.cs
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminGuest\Index.cshtml.g.cs
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\FluentValidation.dll
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\HotelProject.WebUI.MvcApplicationPartsAssemblyInfo.cs
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminGuest\AddGuest.cshtml.g.cs
