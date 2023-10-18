@@ -5,6 +5,8 @@ using HotelProject.DtoLayer.Dtos.ContactDto.Responses;
 using HotelProject.DtoLayer.Dtos.GuestDto.Requests;
 using HotelProject.DtoLayer.Dtos.GuestDto.Responses;
 using HotelProject.DtoLayer.Dtos.RoomDto.Requests;
+using HotelProject.DtoLayer.Dtos.SendMessageDto.Requests;
+using HotelProject.DtoLayer.Dtos.SendMessageDto.Responses;
 using HotelProject.EntityLayer.Concrete;
 
 namespace HotelProject.WebApi.Mapping
@@ -25,6 +27,10 @@ namespace HotelProject.WebApi.Mapping
             CreateMap<CreateGuestRequest, Guest>().ReverseMap();
             CreateMap<UpdateGuestRequest, Guest>().ReverseMap();
             CreateMap<DisplayGuestResponse, Guest>().ReverseMap();
+
+            CreateMap<CreateSendMessageRequest, SendMessage>().ReverseMap();
+            CreateMap<UpdateSendMessageRequest, SendMessage>().ReverseMap();
+            CreateMap<DisplaySendMessageResponse, SendMessage>().ReverseMap();
 
         }
     }

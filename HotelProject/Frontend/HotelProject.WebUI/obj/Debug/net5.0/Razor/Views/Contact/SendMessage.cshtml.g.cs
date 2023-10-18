@@ -133,20 +133,41 @@ using HotelProject.WebUI.Dtos.ContactDto.Requests;
 #nullable disable
 #nullable restore
 #line 18 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
-using HotelProject.WebUI.Dtos.GuestDto.Responses;
+using HotelProject.WebUI.Dtos.ContactDto.Responses;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 19 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.GuestDto.Responses;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 20 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
 using HotelProject.WebUI.Dtos.GuestDto.Requests;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 21 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.SendMessageDto.Responses;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 22 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.SendMessageDto.Requests;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e147f8eee29612ce45da8160116db8b73b8a102b", @"/Views/Contact/SendMessage.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"423701f996eabe10d4bbda06589092fcdc96b03f", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0f4f446b2aa6baa51274ad4c98853784c27e0943", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Contact_SendMessage : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<CreateContactRequest>
     #nullable disable
@@ -210,7 +231,7 @@ using HotelProject.WebUI.Dtos.GuestDto.Requests;
             BeginWriteAttribute("allowfullscreen", " allowfullscreen=\"", 1943, "\"", 1961, 0);
             EndWriteAttribute();
             WriteLiteral(" aria-hidden=\"false\"\r\n                        tabindex=\"0\"></iframe>\r\n            </div>       \r\n            <div class=\"col-md-6\">\r\n                <div class=\"wow fadeInUp\" data-wow-delay=\"0.2s\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e147f8eee29612ce45da8160116db8b73b8a102b10736", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e147f8eee29612ce45da8160116db8b73b8a102b11454", async() => {
                 WriteLiteral(@"
                         <div class=""row g-3"">
                             <div class=""col-md-6"">

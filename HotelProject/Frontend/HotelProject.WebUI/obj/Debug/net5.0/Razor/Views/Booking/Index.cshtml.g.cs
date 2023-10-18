@@ -133,20 +133,41 @@ using HotelProject.WebUI.Dtos.ContactDto.Requests;
 #nullable disable
 #nullable restore
 #line 18 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
-using HotelProject.WebUI.Dtos.GuestDto.Responses;
+using HotelProject.WebUI.Dtos.ContactDto.Responses;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 19 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.GuestDto.Responses;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 20 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
 using HotelProject.WebUI.Dtos.GuestDto.Requests;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 21 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.SendMessageDto.Responses;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 22 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.SendMessageDto.Requests;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d59fda158e15e69a2c62dc9c68923b3492a80f00", @"/Views/Booking/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"423701f996eabe10d4bbda06589092fcdc96b03f", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0f4f446b2aa6baa51274ad4c98853784c27e0943", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Booking_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -193,7 +214,7 @@ Write(await Component.InvokeAsync("_HeadPartial"));
 #line hidden
 #nullable disable
             WriteLiteral("\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d59fda158e15e69a2c62dc9c68923b3492a80f007760", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d59fda158e15e69a2c62dc9c68923b3492a80f008478", async() => {
                 WriteLiteral("\r\n    <div class=\"container-xxl bg-white p-0\">\r\n\r\n        ");
 #nullable restore
 #line 14 "C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\Views\Booking\Index.cshtml"

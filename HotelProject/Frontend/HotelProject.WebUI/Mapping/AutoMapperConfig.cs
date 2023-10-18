@@ -13,6 +13,8 @@ using HotelProject.WebUI.Dtos.RegisterDto.Requests;
 using HotelProject.WebUI.Dtos.ReservationDto.Requests;
 using HotelProject.WebUI.Dtos.RoomDto.Requests;
 using HotelProject.WebUI.Dtos.RoomDto.Responses;
+using HotelProject.WebUI.Dtos.SendMessageDto.Requests;
+using HotelProject.WebUI.Dtos.SendMessageDto.Responses;
 using HotelProject.WebUI.Dtos.ServiceDto.Requests;
 using HotelProject.WebUI.Dtos.ServiceDto.Responses;
 using HotelProject.WebUI.Dtos.StaffDto.Responses;
@@ -54,6 +56,10 @@ namespace HotelProject.WebUI.Mapping
             CreateMap<CreateGuestRequest, Guest>().ReverseMap();
             CreateMap<UpdateGuestRequest, Guest>().ReverseMap();
             CreateMap<DisplayGuestResponse, Guest>().ReverseMap();
+
+            CreateMap<CreateSendMessageRequest, SendMessage>().ReverseMap();
+            CreateMap<UpdateSendMessageRequest, SendMessage>().ReverseMap();
+            CreateMap<DisplaySendMessageResponse, SendMessage>().ReverseMap();
         }
     }
 }
