@@ -37,6 +37,7 @@
     <Folder Include="Dtos\StaffDto\Requests\" />
     <Folder Include="Dtos\SubscribeDto\Responses\" />
     <Folder Include="Dtos\TestimonialDto\Requests\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
 </Project>
