@@ -2,6 +2,8 @@
 using HotelProject.EntityLayer.Concrete;
 using HotelProject.WebUI.Dtos.AboutDto.Requests;
 using HotelProject.WebUI.Dtos.AboutDto.Responses;
+using HotelProject.WebUI.Dtos.AppUserDto.Requests;
+using HotelProject.WebUI.Dtos.AppUserDto.Responses;
 using HotelProject.WebUI.Dtos.BookingDto.Requests;
 using HotelProject.WebUI.Dtos.BookingDto.Responses;
 using HotelProject.WebUI.Dtos.ContactDto.Requests;
@@ -9,6 +11,8 @@ using HotelProject.WebUI.Dtos.ContactDto.Responses;
 using HotelProject.WebUI.Dtos.GuestDto.Requests;
 using HotelProject.WebUI.Dtos.GuestDto.Responses;
 using HotelProject.WebUI.Dtos.LoginDto.Requests;
+using HotelProject.WebUI.Dtos.MessageSubjectCategoryDto.Requests;
+using HotelProject.WebUI.Dtos.MessageSubjectCategoryDto.Responses;
 using HotelProject.WebUI.Dtos.RegisterDto.Requests;
 using HotelProject.WebUI.Dtos.ReservationDto.Requests;
 using HotelProject.WebUI.Dtos.RoomDto.Requests;
@@ -19,6 +23,8 @@ using HotelProject.WebUI.Dtos.ServiceDto.Requests;
 using HotelProject.WebUI.Dtos.ServiceDto.Responses;
 using HotelProject.WebUI.Dtos.StaffDto.Responses;
 using HotelProject.WebUI.Dtos.SubscribeDto.Requests;
+using HotelProject.WebUI.Dtos.WorkLocationDto.Requests;
+using HotelProject.WebUI.Dtos.WorkLocationDto.Responses;
 
 namespace HotelProject.WebUI.Mapping
 {
@@ -60,6 +66,19 @@ namespace HotelProject.WebUI.Mapping
             CreateMap<CreateSendMessageRequest, SendMessage>().ReverseMap();
             CreateMap<UpdateSendMessageRequest, SendMessage>().ReverseMap();
             CreateMap<DisplaySendMessageResponse, SendMessage>().ReverseMap();
+
+            CreateMap<CreateMessageSubjectCategoryRequest, MessageSubjectCategory>().ReverseMap();
+            CreateMap<UpdateMessageSubjectCategoryRequest, MessageSubjectCategory>().ReverseMap();
+            CreateMap<DisplayMessageSubjectCategoryResponse, MessageSubjectCategory>().ReverseMap();
+
+            CreateMap<CreateWorkLocationRequest, WorkLocation>().ReverseMap();
+            CreateMap<UpdateWorkLocationRequest, WorkLocation>().ReverseMap();
+            CreateMap<DisplayWorkLocationResponse, WorkLocation>().ReverseMap();
+
+            CreateMap<CreateAppUserRequest, AppUser>().ReverseMap();
+            CreateMap<UpdateAppUserRequest, AppUser>().ReverseMap();
+            CreateMap<DisplayAppUserResponse, AppUser>().ReverseMap();
+
         }
     }
 }

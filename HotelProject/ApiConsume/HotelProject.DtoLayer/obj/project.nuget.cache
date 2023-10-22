@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "o/dj9fXCjUgUm39G0y/QKtNLcLR3kxuk+m068XozqZk3nu/frJSSFnzoX4cdhgr5gD/0TSgLfNvZTbue1SB0vw==",
+  "dgSpecHash": "vFh0ySXlrVRQf3I+/SHuIsLejpQep4DJzNgFBrOPI8lm7uO3sj7Wg/bUSlu9dCjjNlkVhz9URtzH9wcAo2jDuA==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\.NetCore-Api-HotelProject\\HotelProject\\ApiConsume\\HotelProject.DtoLayer\\HotelProject.DtoLayer.csproj",
   "expectedPackageFiles": [

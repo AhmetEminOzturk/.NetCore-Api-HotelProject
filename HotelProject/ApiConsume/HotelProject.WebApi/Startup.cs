@@ -3,6 +3,7 @@ using HotelProject.BusinessLayer.Concrete;
 using HotelProject.DataAccessLayer.Abstract;
 using HotelProject.DataAccessLayer.Concrete;
 using HotelProject.DataAccessLayer.EntityFramework;
+using HotelProject.EntityLayer.Concrete;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -51,6 +52,14 @@ namespace HotelProject.WebApi
             services.AddScoped<IGuestService, GuestManager>();
             services.AddScoped<ISendMessageDal, EfSendMessageDal>();
             services.AddScoped<ISendMessageService, SendMessageManager>();
+            services.AddScoped<IMessageSubjectCategoryDal, EfMessageSubjectCategoryDal>();
+            services.AddScoped<IMessageSubjectCategoryService, MessageSubjectCategoryManager>();
+            services.AddScoped<IWorkLocationDal, EfWorkLocationDal>();
+            services.AddScoped<IWorkLocationService, WorkLocationManager>();
+            services.AddScoped<IAppUserDal, EfAppUserDal>();
+            services.AddScoped<IAppUserService, AppUserManager>();
+
+
 
             services.AddAutoMapper(typeof(Startup));
 
@@ -66,7 +75,9 @@ namespace HotelProject.WebApi
                 });
             });
 
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(options => 
+            options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "HotelProject.WebApi", Version = "v1" });

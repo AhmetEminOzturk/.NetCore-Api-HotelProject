@@ -14,5 +14,7 @@ namespace HotelProject.EntityLayer.Concrete
         public string  Subject { get; set; }
         public string  Message { get; set; }
         public DateTime  Date { get; set; }
+        public int MessageSubjectCategoryId { get; set; }
+        public MessageSubjectCategory MessageSubjectCategory { get; set; }
     }
 }

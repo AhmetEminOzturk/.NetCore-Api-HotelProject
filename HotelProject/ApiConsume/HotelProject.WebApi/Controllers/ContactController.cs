@@ -12,19 +12,19 @@ namespace HotelProject.WebApi.Controllers
     [ApiController]
     public class ContactController : ControllerBase
     {
-        private readonly IContactService _ContactService;
+        private readonly IContactService _contactService;
         private readonly IMapper _mapper;
 
         public ContactController(IContactService ContactService, IMapper mapper)
         {
-            _ContactService = ContactService;
+            _contactService = ContactService;
             _mapper = mapper;
 
         }
         [HttpGet]
         public IActionResult ContactList()
         {
-            var values = _ContactService.TGetList();
+            var values = _contactService.TGetList();
             return Ok(values);
         }
         [HttpPost]
@@ -36,14 +36,14 @@ namespace HotelProject.WebApi.Controllers
                 return BadRequest();
             }
             var values = _mapper.Map<Contact>(createContactRequest);
-            _ContactService.TInsert(values);
+            _contactService.TInsert(values);
             return Ok();
         }
         [HttpDelete]
         public IActionResult DeleteContact(int id)
         {
-            var values = _ContactService.TGetById(id);
-            _ContactService.TDelete(values);
+            var values = _contactService.TGetById(id);
+            _contactService.TDelete(values);
             return Ok();
         }
         [HttpPut]
@@ -54,14 +54,19 @@ namespace HotelProject.WebApi.Controllers
                 return BadRequest();
             }
             var values = _mapper.Map<Contact>(updateContactRequest);
-            _ContactService.TUpdate(values);
+            _contactService.TUpdate(values);
             return Ok("Güncelleme işlemi başarılı");
         }
         [HttpGet("{id}")]
         public IActionResult GetContact(int id)
         {
-            var values = _ContactService.TGetById(id);
+            var values = _contactService.TGetById(id);
             return Ok(values);
+        }
+        [HttpGet("GetContactCount")]
+        public IActionResult GetContactCount()
+        {
+            return Ok(_contactService.TGetContactCount());
         }
     }
 }

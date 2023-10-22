@@ -1,9 +1,12 @@
-﻿using HotelProject.WebUI.Dtos.BookingDto.Requests;
-using HotelProject.WebUI.Dtos.ContactDto.Requests;
+﻿using HotelProject.WebUI.Dtos.ContactDto.Requests;
+using HotelProject.WebUI.Dtos.MessageSubjectCategoryDto.Responses;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,9 +22,25 @@ namespace HotelProject.WebUI.Controllers
         {
             _httpClientFactory = httpClientFactory;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.GetAsync("http://localhost:5000/api/MessageSubjectCategory");
+
+            var jsonData = await responseMessage.Content.ReadAsStringAsync();
+            var values = JsonConvert.DeserializeObject<List<DisplayMessageSubjectCategoryResponse>>(jsonData);
+            
+            List<SelectListItem> values2 = (from x in values
+                                            select new SelectListItem
+                                            {
+                                                Text = x.Name,
+                                                Value = x.MessageSubjectCategoryId.ToString()
+                                            }).ToList();
+
+            ViewBag.CategoryList = values2;
             return View();
+
+
         }
         [HttpGet]
         public PartialViewResult SendMessage()
@@ -38,7 +57,7 @@ namespace HotelProject.WebUI.Controllers
             StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
             await client.PostAsync("http://localhost:5000/api/Contact", content);
 
-            return RedirectToAction("Index" ,"Default");
+            return RedirectToAction("Index", "Default");
         }
     }
 }

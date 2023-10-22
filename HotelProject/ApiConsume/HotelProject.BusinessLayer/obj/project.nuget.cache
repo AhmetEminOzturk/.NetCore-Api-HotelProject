@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YCTGBos1qyGGRqgDIHHshf/v7bwQ+kyYRNXKI3pcTU5RHK5f5eJvG6XIjne5zM2R32N0X03iEpswUEmeHT0HeA==",
+  "dgSpecHash": "PmuDb5zNUi1rK864S99g+iQyxonOKGORTLDvRCF3Lj9jUvTrL/Q+dQHe0zElN2mcOET8S2RO2M5zC/KrBPoQCA==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\.NetCore-Api-HotelProject\\HotelProject\\ApiConsume\\HotelProject.BusinessLayer\\HotelProject.BusinessLayer.csproj",
   "expectedPackageFiles": [

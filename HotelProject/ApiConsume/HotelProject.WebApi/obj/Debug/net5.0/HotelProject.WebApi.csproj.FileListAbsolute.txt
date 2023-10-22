@@ -82,3 +82,6 @@ C:\GitHub\.NetCore-Api-HotelProject\HotelProject\ApiConsume\HotelProject.WebApi\
 C:\GitHub\.NetCore-Api-HotelProject\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\GitHub\.NetCore-Api-HotelProject\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 C:\GitHub\.NetCore-Api-HotelProject\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
