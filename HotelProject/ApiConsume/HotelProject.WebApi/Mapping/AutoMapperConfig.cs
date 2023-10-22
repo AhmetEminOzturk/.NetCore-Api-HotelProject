@@ -50,9 +50,6 @@ namespace HotelProject.WebApi.Mapping
             CreateMap<UpdateAppUserRequest, AppUser>().ReverseMap();
             CreateMap<DisplayAppUserResponse, AppUser>().ReverseMap();
 
-
-
-
         }
     }
 }

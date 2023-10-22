@@ -1,9 +1,13 @@
 ﻿using AutoMapper;
 using HotelProject.BusinessLayer.Abstract;
+using HotelProject.DataAccessLayer.Concrete;
 using HotelProject.DtoLayer.Dtos.AppUserDto.Requests;
 using HotelProject.EntityLayer.Concrete;
+using HotelProject.WebApi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace HotelProject.WebApi.Controllers
 {
