@@ -9,5 +9,6 @@ namespace HotelProject.BusinessLayer.Abstract
 {
     public interface IWorkLocationService :IGenericService<WorkLocation>
     {
+        int TGetWorkLocationCount();
     }
 }

@@ -34,6 +34,11 @@ namespace HotelProject.BusinessLayer.Concrete
             return _workLocationDal.GetList();
         }
 
+        public int TGetWorkLocationCount()
+        {
+            return _workLocationDal.GetWorkLocationCount();
+        }
+
         public void TInsert(WorkLocation t)
         {
             _workLocationDal.Insert(t);

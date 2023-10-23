@@ -15,5 +15,12 @@ namespace HotelProject.DataAccessLayer.EntityFramework
         public EfWorkLocationDal(Context context) : base(context)
         {
         }
+
+        public int GetWorkLocationCount()
+        {
+            using var context = new Context();
+            var value = context.WorkLocations.Count();
+            return value;
+        }
     }
 }
