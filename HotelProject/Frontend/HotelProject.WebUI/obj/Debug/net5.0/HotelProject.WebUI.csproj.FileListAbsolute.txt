@@ -245,3 +245,4 @@ C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj
 C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminRoleAssign\Index.cshtml.g.cs
 C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminRoleAssign\Assign.cshtml.g.cs
 C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminSetting\Index.cshtml.g.cs
+C:\GitHub\.NetCore-Api-HotelProject\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\BookingsAdmin\UpdateBooking.cshtml.g.cs
